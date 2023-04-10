@@ -11,10 +11,14 @@ body {
     /* DO NOT EDIT */
     vertical-align: bottom;
     /* Your code here */
+    height: 30px;
+    width: 30px;
+    margin-bottom: 4px;
 }
 
 h1 {
     /* Your code here */
+    display: inline;
 }
 
 
@@ -24,10 +28,18 @@ h1 {
     /* DO NOT EDIT */
     vertical-align: top;
     /* Your code here */
+    border: 4px dotted black;
+    background-color: yellowgreen;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
 }
 
 .alternate {
     /* Your code here */
+    box-sizing: border-box;
 }
 
 
@@ -46,10 +58,15 @@ h1 {
     background-color: lightgray;
     font-size: larger;
     /* Your code here */
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 40px;
 }
 
 .attribution {
     /* DO NOT EDIT */
     font-style: italic;
     /* Your code here */
+    display: block;
 }
